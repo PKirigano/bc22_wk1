@@ -3,7 +3,8 @@ class shoppingList(object):
         self.shoppingListName = shoppingListName
         self.shoppingListDescription = shoppingListDescription
     
-    def addItem
+    def addShoppingList(self, shoppingListName, shoppingListDescription):
+        shoppinglist = shoppingList()
 
 class user(object):
     def __init__(self userName, email, passWord, gender):
@@ -11,3 +12,6 @@ class user(object):
         self.email = email
         self.passWord = passWord
         self.gender = gender
+    
+    def addUser(self):
+        User = user()
