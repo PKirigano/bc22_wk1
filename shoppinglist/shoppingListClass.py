@@ -13,5 +13,3 @@ class user(object):
         self.passWord = passWord
         self.gender = gender
     
-    def addUser(self):
-        User = user()
